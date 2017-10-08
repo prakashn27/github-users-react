@@ -19,13 +19,43 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <style>
+      .App {
+        text-align: center;
+      }
+
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+        height: 80px;
+      }
+
+      .App-header {
+        background-color: #222;
+        height: 50px;
+        padding: 20px;
+        color: white;
+      }
+
+      .App-title {
+        font-size: 1.5em;
+      }
+
+      .App-intro {
+        font-size: large;
+      }
+    </style>
     <title>React App</title>
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root"></div>
+    <div class="App">
+          <header class="App-header">
+            <h1 class="App-title">Github username list Using React</h1>
+          </header>
+      <div id="root"></div>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
